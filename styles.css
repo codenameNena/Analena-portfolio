@@ -1,0 +1,35 @@
+title{
+    color:slategrey
+    text-align:center
+    font:Courier New (monospace)
+    background-color:white
+}
+body{
+    color:slategrey
+    text-align:left 
+    font:Courier New (monospace)
+    background-color:white
+    a {
+        text-decoration: none;
+        }
+    a:hover {
+        text-decoration: underline;
+        color:thistle }
+
+} 
+#header{box-shadow: 5px 5px 5px; color:black }
+footer{text-align:center;
+       color:black
+       font:Courier New (monospace)
+       background-color:white
+       a {
+        text-decoration: none;
+        }
+    a:hover {
+        text-decoration: underline;
+        color:thistle }
+        
+
+    
+
+}
