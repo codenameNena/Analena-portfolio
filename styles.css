@@ -104,6 +104,43 @@ translate: 0 calc(var(--bar-height) /-2);
 .hamburger-menu:has(input:checked) + .sidebar {
     translate: 0;
 }
+#mobile {
+    display: none;
+  }
+  @media all and (max-width: 500px) {
+  #content {
+    display: none;
+  }
+  body {
+  background: #6699CC;
+  padding: 5px;
+  }
+  #mobile {
+      display: initial;
+    }
+  #mobile img {
+  float: left;
+  margin: 10px 10px 10px 10px;
+  }
+  #mobile ul {
+  list-style-type: none;
+  margin: 15px 0 0 30px;
+  }
+  #mobile li {
+  padding: 8px 0px 8px 8px;
+  margin: 7px 7px 7px 40px;
+  background-color: #FFF;
+  border: 1px solid #003;
+  border-radius: 5pt;
+  box-shadow: 2px 2px 1px #003;
+  }
+  #mobile li:hover {
+  background-color: #FF6;
+  }
+  #mobile a {
+  font-weight: bold;
+  font-size: 1.2em;
+  }  
 #header{box-shadow: 5px 5px 5px; color:black }
 footer{text-align:center;
        color:black;
